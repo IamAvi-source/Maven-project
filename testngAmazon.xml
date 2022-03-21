@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="/QA-Environment/testngAmazon.xml">
+<parameter name="browser" value="edge"></parameter>
+  <test thread-count="5" name="/QA-Environment/testngAmazon.xml">
+    <classes>
+      <class name="pageLayer1.AmazonScroll"/>
+    </classes>
+  </test> <!-- /QA-Environment/testngAmazon.xml -->
+</suite> <!-- /QA-Environment/testngAmazon.xml -->
